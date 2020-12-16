@@ -1,0 +1,48 @@
+.blog-card {
+    box-sizing: border-box;
+    display: grid;
+    width: 100%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    grid-template-columns: min-content 50% 1fr;
+    grid-template-rows: min-content 25% 1fr;
+    grid-template-areas: 
+    "avatar author image"
+    "title title image" 
+    "subtitle subtitle image" 
+    "subtitle subtitle image";
+    grid-gap: 5px;
+    justify-content: center;
+    /* align-items: center; */
+    /* border-radius: 25px; */
+    padding: 20px;
+}
+
+.card-avatar {
+    grid-area: avatar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-author {
+    grid-area: author;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.card-title {
+    grid-area: title;
+    padding: 0;
+    margin: 0;
+}
+
+.card-snippet {
+    grid-area: subtitle;
+}
+
+.card-image {
+    grid-area: image;
+}

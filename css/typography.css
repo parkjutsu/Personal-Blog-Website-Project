@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+/* index header */
+.header {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25em;
+}
+
+/* blog header */
+/* #blog-header {   
+    font-family: 'Roboto', sans-serif;
+} */
+
+.button-caption {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.blog-card {
+    font-size: 1.5em;
+}
+
+.card-author {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.75em;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-snippet {
+    
+}
+
+.blog-post-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+.image-caption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+}
+
+.blog-post-main {
+    line-height: 2em;
+}
+
+blockquote {
+    /* font-style: italic; */
+    border-width: 0 0 0 10px;
+    border-style: solid;
+    padding: 10px 20px;
+}
+
+.blog-post-social {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.author-info {
+    /* font-size: 1.25em; */
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Medium screens */
+@media (min-width: 600px) and (max-width: 900px) {
+
+}
+
+/* Large screens */
+@media (min-wdith: 901px) {
+
+})

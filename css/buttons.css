@@ -1,0 +1,76 @@
+.nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.social-button {
+    color: black;
+    background-color: rgb(223, 223, 223);
+    border: none;
+}
+
+button:hover {
+    color: red;
+}
+
+#home-icon {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    background-image: url("../images/home-icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+#home-icon:hover {
+    background-image: url("../images/home-icon-red.svg");
+}
+
+#subscribe-icon {
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    background-image: url("../images/subscribe-icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+#subscribe-icon:hover {
+    background-image: url("../images/subscribe-icon-red.svg");
+}
+
+.social-icon {
+    width: 75px;
+    height: 75px;
+    margin: 0 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+#facebook-icon {
+    background-image: url("../images/facebook-icon.svg");
+}
+
+#facebook-icon:hover {
+    background-image: url("../images/facebook-icon-red.svg");
+}
+
+#twitter-icon {
+    background-image: url("../images/twitter-icon.svg");
+}
+
+#twitter-icon:hover {
+    background-image: url("../images/twitter-icon-red.svg");
+}
+
+#linkedin-icon {
+    background-image: url("../images/linkedin-icon.svg");
+}
+
+#linkedin-icon:hover {
+    background-image: url("../images/linkedin-icon-red.svg");
+}

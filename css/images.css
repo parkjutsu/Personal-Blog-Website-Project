@@ -1,0 +1,55 @@
+.card-avatar {
+    min-width: 25px;
+    height: 25px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    padding: 15px;
+    background-image: url("../images/avatar-icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-image {
+    background-position: center;
+    background-size: cover;
+}
+
+#card-image-1 {
+    background-image: url("../images/mountains.jpg");
+}
+
+#card-image-2 {
+    background-image: url("../images/carrots.jpg");
+}
+
+#card-image-3 {
+    background-image: url("../images/cabin.jpg");
+}
+
+.blog-post-avatar {
+    min-width: 25px;
+    height: 25px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    padding: 15px;
+    background-image: url("../images/avatar-icon.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-post-image {
+    background-position: center;
+    background-size: cover;
+}
+
+#post-1-image {
+    background-image: url("../images/mountains.jpg");
+}
+
+#post-2-image {
+    background-image: url("../images/carrots.jpg");
+}
+
+#post-3-image {
+    background-image: url("../images/cabin.jpg");
+}

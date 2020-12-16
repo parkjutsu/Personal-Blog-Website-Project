@@ -1,0 +1,117 @@
+/* Anything smaller than first breakpoint 600px */
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* width: 100vw; */
+}
+
+.container {
+    display: grid;
+    min-height: 100%;
+    /* width: 100%; */
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px min-content 600px min-content min-content 100px min-content 100px;
+    /* grid-template-rows: repeat(autofit, minmax(250px, 1fr)); */
+    /* grid-gap: 10px; */
+    grid-template-areas: 
+        "hd"
+        "tl"
+        "img"
+        "cap"
+        "main"
+        "soc"
+        "ab"
+        "ft";
+    justify-content: center;
+    /* border: 2px solid red ; */
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 0 0 1.5px 0;
+    border-style: solid;
+    padding: 25px;
+}
+
+.header-title {
+    border-width: 0 3px;
+    border-style: solid;
+    padding: 0.35em 20px;
+    text-align: center;
+}
+
+.navbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post-title {
+    grid-area: tl;
+    text-align: center;
+}
+
+.blog-post-image {
+    grid-area: img;
+}
+
+.image-caption {
+    grid-area: cap;
+    text-align: center;
+    border-width: 0 3px;
+    border-style: solid;
+}
+
+.blog-post-main {
+    grid-area: main;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    border-width: 0 3px;
+    border-style: solid;
+}
+
+.blog-post-social {
+    grid-area: soc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post-about {
+    grid-area: ab;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 20px;
+    border-width: 0 0 1.5px 0;
+    border-style: solid;
+}
+
+.author-info {
+    margin-left: 20px;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Medium screens */
+@media (min-width: 600px) and (max-width: 900px) {
+
+}
+
+/* Large screens */
+@media (min-wdith: 901px) {
+
+})

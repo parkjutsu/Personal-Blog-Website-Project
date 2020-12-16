@@ -2,11 +2,65 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title></title>
-        <meta name="description" content="Example" />
-        <link href="css/style.cs" type="text/css" rel="stylesheet" />
+        <title>Personal Blog Project</title>
+        <link href="css/index-style.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-
+        <div class="container" id="index-container">
+            <div class="header" id=index-header>
+                <form action="index.html">
+                    <button class="nav-button" type="submit" value="Go to index">
+                        <div id="home-icon"></div>
+                        <div class="button-caption">Home</div>
+                    </button>
+                </form>
+                <h1 class="header-title">Personal Blog Project</h1>
+                <form>
+                    <button class="nav-button" type="submit" value="Go to subscribe page">
+                        <div id="subscribe-icon"></div>
+                        <div class="button-caption">Subscribe</div>
+                    </button>
+                </form>
+            </div>
+            <div class="blog-card">
+                <div class="card-avatar"></div>
+                <div class="card-author">
+                    Abraham Park &bull; 7 hours ago
+                </div>
+                <div class="card-title"><h2>The Wonderful Thing About the Colour Green</h2></div>
+                <div class="card-snippet">
+                    <p>Green is a colour (or color for you Americans) that is often understated...</p>
+                    <a class="read-more" href="blog-post-1.html">Click to read more.</a>
+                </div>
+                <div class="card-image" id="card-image-1"></div>
+            </div>
+            <div class="blog-card">
+                <div class="card-avatar"></div>
+                <div class="card-author">
+                    Abraham Park &bull; 2 days ago
+                </div>
+                <div class="card-title"><h2>Carrots and Improving Eyesight</h2></div>
+                <div class="card-snippet">
+                    <p>Ever since I was a child, my mother would praise the wonders of carrots...</p>
+                    <a class="read-more" href="blog-post-2.html">Click to read more.</a>
+                </div>
+                <div class="card-image" id="card-image-2"></div>
+            </div>
+            <div class="blog-card">
+                <div class="card-avatar"></div>
+                <div class="card-author">
+                    Abraham Park &bull; A week ago
+                </div>
+                <div class="card-title"><h2>Why Avatar: The Last Airbender Is So Great</h2></div>
+                <div class="card-snippet">
+                    <p>Avatar: The Last Airbender is an animated TV series that aired from 2005-2008...</p>
+                    <a class="read-more" href="blog-post-3.html">Click to read more.</a>
+                </div>
+                <div class="card-image" id="card-image-3"></div>
+            </div>
+            <div class="footer" id="index-footer">Lovingly made with HTML and CSS in 2020&nbsp<span id="heart-symbol">&hearts;</span></div>
+        </div>
     </body>
 </html>
