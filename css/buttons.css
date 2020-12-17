@@ -13,9 +13,9 @@
     border: none;
 }
 
-button:hover {
+/* button:active {
     color: red;
-}
+} */
 
 #home-icon {
     width: 40px;
