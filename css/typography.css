@@ -51,8 +51,8 @@ h3 {
     line-height: 2em;
 }
 
+/* blockquote style based on the one found at https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling */
 blockquote {
-    /* font-style: italic; */
     border-width: 0 0 0 10px;
     border-style: solid;
     padding: 10px 20px;
