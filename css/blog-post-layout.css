@@ -28,7 +28,7 @@ body {
     /* border: 2px solid red ; */
 }
 
-.header {
+header {
     grid-area: hd;
     display: flex;
     flex-direction: row;
@@ -44,6 +44,10 @@ body {
     border-style: solid;
     padding: 0.35em 20px;
     text-align: center;
+}
+
+h3 {
+    margin: 0 20px;
 }
 
 .navbutton {
@@ -99,7 +103,7 @@ body {
     margin-left: 20px;
 }
 
-.footer {
+footer {
     grid-area: ft;
     display: flex;
     justify-content: center;
@@ -114,4 +118,4 @@ body {
 /* Large screens */
 @media (min-wdith: 901px) {
 
-})
+}

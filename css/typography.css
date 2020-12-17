@@ -3,16 +3,23 @@ body {
     font-size: 100%;
 }
 
-/* index header */
-.header {
+h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.25em;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
-/* blog header */
-/* #blog-header {   
+h2 {
     font-family: 'Roboto', sans-serif;
-} */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 .button-caption {
     font-size: 1.5em;
@@ -29,22 +36,14 @@ body {
     font-size: 0.75em;
 }
 
-.card-title {
-    font-family: 'Roboto', sans-serif;
-}
-
-.card-snippet {
-    
-}
-
 .blog-post-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 .image-caption {
     font-family: 'Roboto', sans-serif;
-    font-size: 0.5em;
+    font-weight: 300;
+    font-size: 0.6em;
 }
 
 .blog-post-main {
@@ -58,30 +57,16 @@ blockquote {
     padding: 10px 20px;
 }
 
-.blog-post-social {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
 .author-info {
     /* font-size: 1.25em; */
 }
 
-.footer {
+footer {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
 }
-
-/* Medium screens */
-@media (min-width: 600px) and (max-width: 900px) {
-
-}
-
-/* Large screens */
-@media (min-wdith: 901px) {
-
-})
